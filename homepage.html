@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+	
+	.form-inline{
+		margin: center;
+	}
+	.addsub{
+		color:blue;
+		text-size:1em;
+	}
+	.boxed{
+		border-radius:30px;
+		background: #73AD11;
+		width: 250px;
+		height: 170px;
+		position: fixed;
+		top:40%;
+		left:40%;
+		border:3px normal black;
+		padding: 15px;
+ 	}
+</style>
+<head>
+	<title>Bunk Master</title>
+	<h1 align="center">Welcome to Bunk Master</h1>
+	<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<div class="boxed"> 
+<form class="form-inline" role="form" action="addsubject.php">
+<div class="form-group">
+<button type="submit" class="btn btn-primary">Add Subject</button>
+</div>
+</form>
+<br>
+<form class="form-inline" role="form" action="update.php">
+<div class="form-group">
+<button type="submit" class="btn btn-info">Update</button> 
+</div>
+</form>
+<br>
+<form class="form-inline" role="form" action="checkattendance.php">
+<div class="form-group">
+<button type="submit" id="b_c" class="btn btn-Success">
+Check Attendence</button>
+</div>
+</form>
+<br>
+</div>
+</body>
+</html>
